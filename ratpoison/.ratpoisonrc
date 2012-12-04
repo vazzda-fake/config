@@ -1,0 +1,26 @@
+escape M-Tab
+
+unmanage panel
+#set border 0
+#set padding 0 16 0 0
+
+set winfmt %a%n
+
+#exec xmodmap  -e 'keycode 122 = F20'
+#exec xmodmap  -e 'keycode 123 = F21'
+
+bind t exec x-terminal-emulator
+bind C-t exec x-terminal-emulator
+bind Cyrillic_ie exec x-terminal-emulator
+bind g exec google-chrome
+bind C-g exec google-chrome
+bind v exec gvim
+bind C-v exec gvim
+bind h exec thg
+bind C-h exec thg
+bind grave exec lxsession-logout
+
+bind XF86AudioMute exec amixer set Master toggle
+bind XF86AudioLowerVolume exec amixer -c 0 set Master 5- unmute
+bind XF86AudioRaiseVolume exec amixer -c 0 set Master 5+ unmute
+
