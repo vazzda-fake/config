@@ -9,18 +9,17 @@ set winfmt %a%n
 #exec xmodmap  -e 'keycode 122 = F20'
 #exec xmodmap  -e 'keycode 123 = F21'
 
-bind t exec x-terminal-emulator
-bind C-t exec x-terminal-emulator
-bind Cyrillic_ie exec x-terminal-emulator
-bind g exec google-chrome
-bind C-g exec google-chrome
-bind v exec gvim
-bind C-v exec gvim
-bind h exec thg
-bind C-h exec thg
+#system hotkeys
 bind grave exec lxsession-logout
 
 bind XF86AudioMute exec amixer set Master toggle
 bind XF86AudioLowerVolume exec amixer -c 0 set Master 5- unmute
 bind XF86AudioRaiseVolume exec amixer -c 0 set Master 5+ unmute
 
+#progmramm hotkeys
+bind F1 exec google-chrome
+bind F2 exec x-terminal-emulator
+bind F3 exec gvim -S /home/vazzda/.vim/session.vim
+bind F4 exec thg
+bind F11 exec audacious
+bind F10 exec alarmclock
