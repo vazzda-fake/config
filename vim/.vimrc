@@ -13,6 +13,10 @@ au FocusLost * silent! :w
 au BufLeave * silent! :w
 
 
+" Save session on focus lost (gui)
+au FocusLost * :mksession! ~/.vim/session.vim
+
+
 " Работа с русскими символами
 set keymap=russian-jcukenwin    " настраиваем переключение раскладок клавиатуры по C-^
 set iminsert=0                  " раскладка по умолчанию для ввода - английская
