@@ -218,7 +218,8 @@ set tabstop=2
 set incsearch
 
 " Отключаем подстветку найденных вариантов, и так всё видно.
-set nohlsearch
+" set nohlsearch
+set hls
 
 " Использовать регистронезависимый поиск
 set ignorecase
