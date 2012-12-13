@@ -80,7 +80,7 @@ set iminsert=0
 set history=150
 
 " Максимальное количество изменений, которые могут быть отменены
-set undolevels=300
+set undolevels=1300
 
 " Не создавать резервные копии файлов
 set nobackup
