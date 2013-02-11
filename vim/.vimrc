@@ -86,6 +86,9 @@ set undolevels=1300
 set nobackup
 set noswapfile
 
+" copy to global clipboard"
+set guioptions+=a
+
 "=============================================================================
 " Вид  / hevil.view
 "=============================================================================
@@ -137,7 +140,7 @@ set nolist
 
 set autoindent                          " Наследовать отступы предыдущей строки
 set smartindent                         " Включить 'умные' отступы
-"set expandtab                           " Преобразование таба в пробелы
+set expandtab                           " Преобразование таба в пробелы
 set shiftwidth=2                        " Размер табуляции по умолчанию
 set softtabstop=2
 set tabstop=2
