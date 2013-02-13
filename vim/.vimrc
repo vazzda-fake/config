@@ -90,8 +90,18 @@ set noswapfile
 set guioptions+=a
 
 "=============================================================================
-" Вид  / hevil.view
+" view
 "=============================================================================
+
+"remove menu bar
+set guioptions-=m
+
+"remove toolbar
+set guioptions-=T
+
+"remove right-hand scrollbar
+set guioptions-=r
+
 
 " Показывать положение курсора всё время.
 set ruler
@@ -350,11 +360,3 @@ imap <F10> <esc>:bd<cr>
 " camelcasemotion   бегаем по заглавным буквам как по словам            http://www.vim.org/scripts/script.php?script_id=1905
 " snipMate          снипеты как в TextMate                              http://www.vim.org/scripts/script.php?script_id=2540
 " marksbrowser      визуальный просмотр меток                           http://www.vim.org/scripts/script.php?script_id=1706
-
-
-"=============================================================================
-" Баги?
-"=============================================================================
-
-"пропадающий курсор в гуе"
-set guioptions=-l
