@@ -20,7 +20,7 @@ bind XF86AudioRaiseVolume exec amixer -c 0 set Master 5+ unmute
 bind F1 exec google-chrome
 bind F2 exec x-terminal-emulator
 bind F3 exec gvim -S /home/vazzda/.vim/session.vim
-bind F4 exec thg
+bind F4 exec ~/work/tortoisehg-2.7/thg
 bind F7 exec teamviewer
 bind F11 exec audacious
 bind F10 exec alarmclock
