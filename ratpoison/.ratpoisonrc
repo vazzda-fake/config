@@ -24,3 +24,13 @@ bind F4 exec ~/work/tortoisehg-2.7/thg
 bind F7 exec teamviewer
 bind F11 exec audacious
 bind F10 exec alarmclock
+
+bind C-1 number 1
+bind C-2 number 2
+bind C-3 number 3
+bind C-4 number 4
+bind C-5 number 5
+bind C-6 number 6
+bind C-7 number 7
+bind C-8 number 8
+bind C-9 number 9
