@@ -1,5 +1,6 @@
 escape M-Tab
 
+
 unmanage panel
 #set border 0
 #set padding 0 16 0 0
